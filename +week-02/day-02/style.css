@@ -1,0 +1,77 @@
+.body {
+    font-family: 'Playfair Display', serif;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+.image {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 30px;
+  line-height: 0.3;
+  
+    
+  }
+  .text-block {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+  top: 220px;
+  left: 380px;
+  width: 500px;
+  text-align: left;
+    color: black;
+ }
+ .introsection {
+   line-height: 1.0;
+   font-family: 'Playfair Display', serif;
+   margin-left: 25%;
+   margin-right: 30%;
+   font-size: 18px;
+ } 
+  ul.biglist {
+    list-style-type: square;  
+    line-height: 1.8;
+  }
+  ul.smallist {
+    list-style-type: square;  
+    line-height: 1.8;
+    font-size: 14px;
+  }
+@supports ( hanging-punctuation: first) {
+  blockquote {
+    text-indent: 0;
+    hanging-punctuation: first;
+  }
+}
+  .quotes {
+      display: block;
+    position: relative;
+    background-color: #4d4d4d;
+    color: white;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 27%;
+    font-size: 45px;
+    text-align: left;
+    quotes: "\"" "\"";
+  } 
+  blockquote::before {
+    content: open-quote;
+}
+  .headers {
+    font-family: 'Playfair Display', serif;
+    margin-left: 25%;
+    margin-right: 30%;
+    letter-spacing: 2px;
+  } 
+  .jobs{
+    font-family: 'Playfair Display', serif;
+    margin-left: 25%;
+    margin-right: 30%;
+    line-height: 1.6;
+  }
+  hr.line {
+    border-top: 5px solid black;
+    margin-left: 20%;
+    margin-right: 30%;
+  }

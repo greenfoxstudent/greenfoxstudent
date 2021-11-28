@@ -34,12 +34,4 @@ grow, mark and tweak your common history
    switch            Switch branches
    tag               Create, list, delete or verify a tag object signed with GPG
 
-collaborate (see also: git help workflows)
-   fetch             Download objects and refs from another repository
-   pull              Fetch from and integrate with another repository or a local branch
-   push              Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+SAK BOHA ZMENA
